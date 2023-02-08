@@ -93,6 +93,7 @@ btnAll.forEach(btn => {
                 if(output != '') {
                     screenResult.textContent = output
                     screenOutput.textContent = ''
+                    result = output
                     output = ''
                 }
                 break
